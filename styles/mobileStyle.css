@@ -1,0 +1,41 @@
+@media (max-width: 1000px) or (max-height: 500px){
+    .personagem::after{
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        width: 100vw;
+    }
+
+    .personagem__informaçoes {
+        width: 70%;
+        top: 15%;
+        left: 20px;
+    }
+
+    .personagem__logoAnime {
+        width: 40%;
+    }
+
+    .personagem__nome{
+        font-size: 2em;
+    }
+
+    .personagem__descricao{
+        font-size: 1em;
+    }
+
+    .personagem__foto {
+        height: 80vh;
+    }
+
+    .personagem__botoes{
+        height: 15vh;
+        width: 100vw;
+        flex-flow: row nowrap;
+        gap: 5px;
+        padding: 30px;
+        top: 80%;
+    }
+
+    .personagem__botaoImagem {
+        width: 60%;
+    }
+}
